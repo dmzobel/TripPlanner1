@@ -15,19 +15,18 @@ body {
   background-color: #C1B5AD;
 }
 
-h1 {
+nav {
   position: absolute;
   z-index: 2;
-  left: 1%;
+  width: 100vw;
+  padding: 10px;
+  background-color: rgba(63, 63, 63, .7);
+  color: white;
+  align-items: center;
 }
 
-.panel {
-  padding: 10px;
-}
-
-nav {
-  padding: 10px;
-  background-color: aquamarine;
+nav h2 {
+  margin: 0;
 }
 
 nav li {
@@ -44,9 +43,21 @@ nav li {
   flex-direction: column;
   flex: 0 0 20%;
   position: absolute;
+  bottom: 0;
   right: 0;
-  background-color: rgba(63, 63, 63, .5);
-  width: 20%;
+  background-color: rgba(63, 63, 63, .7);
+  color: white;
+  width: 20vw;
+  height: 75vh;
+  overflow: scroll;
+}
+
+#selection-panel select {
+  width: 75%;
+}
+
+.panel {
+  padding: 10px;
 }
 
 .list-item {
