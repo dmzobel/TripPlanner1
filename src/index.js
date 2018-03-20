@@ -1,4 +1,4 @@
-const marker = require('./marker.js').marker
+const buildMarker = require('./marker.js').marker
 
 const mapboxgl = require('mapbox-gl');
 
@@ -12,5 +12,4 @@ const map = new mapboxgl.Map({
   style: 'mapbox://styles/mapbox/streets-v10' // mapbox has lots of different map styles available.
 });
 
-marker('activity', [-74.0176096, 40.7064001], map);
-
+buildMarker('activity', [-87.6354, 41.8885], map);

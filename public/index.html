@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,49 @@
   <script src = './bundle.js' defer ></script>
   <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
   <link rel="stylesheet" href="./style.css" />
-
 </head>
+
 <body>
-  <div id='map'></div>
+
+  <h2>Map</h2>
+
+  <nav>
+
+  </nav>
+
+  <div class="map-window">
+
+    <div id='map'></div>
+
+    <div class="side-panels">
+
+      <div class="options">
+        <ul class="list-unstyled">
+          <li>
+            Hotels
+
+          </li>
+          <li>
+            Restaurants
+
+          </li>
+          <li>
+            Things To Do
+
+          </li>
+        </ul>
+      </div>
+
+      <div id="itinerary">
+        <h4>Itinerary:</h4>
+        <p>My Hotels</p>
+        <p>My Restaurants</p>
+        <p>My Activities</p>
+      </div>
+
+    </div>
+  </div>
+
 </body>
+
 </html>
